@@ -15,5 +15,5 @@ Software & tools: Postgresql, pgAdmin
 ## Summary
 - There are a total of 90,398 roles that need to be filled, 2 of them being managers.
 - There are a total of 1550 employees available for the mentorship program. The split among the different titles is shown below in the pic
-![image]()
+![image](https://github.com/vijayabme/Pewlett-Hackard-Analysis/blob/main/data/mentorship_titles.png)
 
