@@ -8,7 +8,7 @@ Software & tools: Postgresql, pgAdmin
 ## Results
 - There are a total of 90,398 employees that are retiring.
 - Out of the employees that are retiring majority are senior engineers(29414), engineers(14222), senior staff(28254) and staff(12243)
-- ![image](https://github.com/vijayabme/Pewlett-Hackard-Analysis/blob/main/data/retiring_titles.png)
+![image](https://github.com/vijayabme/Pewlett-Hackard-Analysis/blob/main/data/retiring_titles.png)
 - There are 1550 employees that are eligible for mentorship program.
 
 ## Summary
