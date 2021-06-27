@@ -60,4 +60,15 @@ FROM employees as e
 	   AND (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 	   ORDER BY e.emp_no;
 	   
-SELECT * FROM mentorship_eligibility	   
+SELECT * FROM mentorship_eligibility
+
+-- Get the count of employees by title eligible for mentorship
+
+SELECT COUNT(me.title) AS title_count, me.title
+INTO mentorship_titles
+FROM mentorship_eligibility as me
+GROUP BY me.title
+ORDER BY title_count DESC
+;
+
+SELECT * FROM mentorship_titles
